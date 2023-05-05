@@ -7,6 +7,8 @@ This example features some basic Streamlit survey functionality in a python prog
 
 Python installed.
 
+Streamlit installed (and Anaconda if using windows)
+
 Install the Streamlit libraries.
 
 ```shell
