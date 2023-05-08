@@ -25,6 +25,13 @@ Build the container using the following command:
 docker build -t survey:latest .
 ```
 
+If using Podman to build the container then use the following commands:
+
+```shell
+export BUILDAH_FORMAT=docker
+docker build -t survey:latest .
+```
+
 Verify that the docker image was built.
 
 ```shell
@@ -37,7 +44,7 @@ Run the container using the following command:
 docker run -p 8501:8501 survey:latest
 ```
 
-Now open your browser and open up the following web site:
+Now open your browser and open up the following web site to see the survey demonstration:
 
 ```shell
 http://127.0.0.1:8501
