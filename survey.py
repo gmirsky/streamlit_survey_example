@@ -218,7 +218,7 @@ def main():
             elif q[5][0] == 'dateinput':
                 p2q1 = survey.dateinput(q[5][1])
 
-    # Disolay the data captured from the survey
+    # Display the data captured from the survey
     st.write("This is the data captured from the survey")
     st.json(survey.to_json())
 
